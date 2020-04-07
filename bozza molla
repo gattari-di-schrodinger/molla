@@ -1,0 +1,51 @@
+1 Scopo dell'esperienza
+Misurare il valore della costanza elastica di una molla e dell'accelerazione di gravità attraverso
+due metodi differenti. 
+
+2 Materiale e strumenti di misura
+
+
+3 Strategia di misura e formule utilizzate
+
+- formule 
+- Accorgimenti:
+offset
+calibrazione della massa
+
+
+
+4 Analisi
+Importanza di calcolare incertezza A (statistica)
+Importanza d calcolare Incertezza B e spiegare perché si utilizzano due metodi diversi per ridurla.
+
+
+1 metodo 
+- come si fa
+- analisi incertezze: 
+- perché eliminiamo l'incertezza sulla massa
+- misura della media di T1 T2 m1 m2 e k, misura sigma T1,T2,k (con tabelle e grafici)
+-dire come abbiamo scelto di propagare T1 e T2 e perché
+-retta di interpolazione per k (con grafico)
+- misura della media e di sigma di elongazione 1 e 2 e g (con tabelle e grafici)
+-retta di interpolazione per g(con grafico)
+
+2 metodo
+-come si fa
+-grafico T^2 vs m, elongazione vs m, elongazione vs T^2 
+-ribadire eliminazione incertezza sulla massa
+-ribadire la scelta di propagazione di T1 e T2
+-estrarre alfa 1,2,3 con relative incertezze (metodo grafico)
+-ricavare k da alfa1 e g da alfa2/alfa1 e da alfa3 con relative incertezze
+- retta di interpolazione per k e g (con grafico)
+-discutere il significato fisico di alfa 1,2,3
+
+
+
+5 Conclusione:
+confronto tra le due k del 1 metodo
+confrontare le k ottenute con il 1 e 2 metodo
+confronto le g ottenute con il 2 metodo
+confronto le g tra il 1 e il 2 metodo
+discutere il risultato di g( che cosa ci aspettavamo?)
+
+
