@@ -1,0 +1,146 @@
+1 Scopo dell'esperienza
+Misurare il valore della costanza elastica di una molla reale e dell'accelerazione di gravità attraverso
+due metodi differenti. 
+2 Materiali e apparato sperimentale
+
+
+
+3 Strategia e formule utilizzate
+Per ricavare k della molla e g attraverso l'oscillazione di una molla per una massa appesa si utilizza la legge di Hooke in una dimensione:
+
+F= -k*delta(x)= -k(x-xo).
+dove F è la forza elastica, delta(x) è l'elongazione della molla, x è la posizione finale della molla, xo è la posizione di equilibrio.
+
+Risolvendo l'equazione differenziale di secondo grado si ottiene la soluzione generale:
+x= xo+ Acos(wt+ fi)
+
+con w^2= k/m (pulsazione), A=ampiezza, fi=fase.
+
+Il periodo di oscillazione è legato allla pulsazione dalla relazione T=2pigreco/w= 2pigrecocos*sqrt(m/k).
+
+Poiché la massa è appesa, il valore della Forza elastica dipende anche dalla Forza-peso, per cui la formula diventa:
+
+
+F= -k*delta(x) + mg= -k(x-xo)+mg    che ha come soluzione 
+
+x=xo +mg/k + Acos(wt + fi) che nel caso statico risulta x=xo+mg/k.
+Poiché l'esperimento si basa sullo studio di una molla reale e non ideale, la posizione di equilibrio e la massa totale dell'oscillatore sono ignoti.
+
+E' necessario quindi calcolare:
+ k utilizzando due diverse misure di periodo per masse diverse : k= 4pigreco^2(m2-m1)/T2^2-T1^2.
+ g utilizzando due diverse misure di allungamento su masse diverse: g= k(xeq2-xeq1)/(m2-m1).
+---
+Incertezza
+Per k= 4pigreco^2(m2-m1)/T2^2-T1^2  bisogna utilizzare la formula di propagazione delle incertezze attraverso la serie di Taylor:
+
+sigma(k)= 4pigreco^2*sqrt((d(k)/d(T2)*sigma(T2))^2+ (d(k)/d(T1)*sigma(T1))^2)
+
+Per g= k(xeq2-xeq1)/(m2-m1) la formula di propagazione delle incertezze è:
+
+sigma(g)= sqrt((d(g)/d(k)*sigma(k))^2+(d(g)/d(xeq2)*sigma(xeq2))^2+(d(g)/d(xeq1)+sigma(xeq1))^2)/m2-m1
+
+Da queste formule si può poi calcolare l'incertezza relativa di k e g esprimibili come sigma/ valore medio.
+
+Attraverso il metodo grafico è possibile linearizzare una funzione f(x) tramite una retta approssimante della forma y=a+bx 
+dove b= S/S*  e a= My- b Mx
+
+essendo
+.Mx la media dei valori di xi;
+.My la media dei valori di yi;
+. S= la somma dei prodotti degli scarti di xi da Mx e di yi da Myi, ovvero:
+
+S= sommatoria da 1 a n di (xi-Mxi)(T^2i-Myi);
+S* la somma in quadratura degli scarti di xi dalla media Mx, ovvero S*= sommatoria da 1 a n di (xi-Mx)^2.
+
+Per valutare se la retta di approssimazione è efficace, si calcola il coefficiente di determinazione indicato con r^2 dato da:
+Cov^2(xy)/Var(x)*Var(y).
+Il suo valore è sempre compreso tra 0 e 1 e coincide con il quadrato del coefficiente di correlazione (p^2).
+
+In questo modo si può studiare :
+1 il periodo di oscillazione in funzione della massa:
+ T^2= To^2 + alfa1*m
+2 l'elongazione della molla in funzione della massa:
+xeq= xo+ (mo+m)*g/k= xo'+ alfa2*m 
+3 l'elongazione della molla in funzione del periodo di oscillazione:
+xeq= xo+alfa3*T^2
+
+Poiché alfa1= 4pigreco^2/k, k può essere ricavato come k= 4pigreco^2/alfa1 e la sua incertezza diventa:
+sigma(k)= 4pigreco^2* sigma(alfa1).
+
+
+Dai valori di alfa1, alfa2 e alfa3, inoltre, è  possibile ricavare g esprimibile come:
+1 g= 4pigreco^2* alfa2/alfa1 
+2 g= 4pigreco^2* alfa3
+
+L'incertezza su g dalla prima formula è sigma(g)= 4pigreco^2*alfa2/alfa1 *sqrt(sigma(alfa2)^2+ sigma(alfa1)^2).
+L'incertezza su g dalla seconda formula è sigma(g)= 4pigreco^2*sigma(alfa3).
+
+Accorgimenti:
+- errore di offset: 
+analizzando i dati relativi alle masse si notano delle disuguaglianze tra il valore delle masse reali e il valore delle masse misurate per cui 
+è necessaria una correzione. Confrontando la retta dei valori medi con quella ideale, ovvero avente offset pari a zero e pendenza di 45°, si determina 
+l'errore di offset, in corrispondenza dell'intercetta della retta(vedi grafico).
+- poiché si tratta di una molla reale, l'allungamento viene stimolato a partire da un preciso valore della massa per cui risulta che i valori di T0 e T1
+del periodo di oscillazione presenti nella tabella (dire quale) siano pari a 0. Nei calcoli, quindi, sono stati trascurati.
+
+
+3 Misura di k e g
+La misura indiretta di k e g prevede l'analisi di misure che dipendono da molteplici parametri che potrebbero innalzare il valore dell'incertezza totale.
+Per ridurla, si utilizzano due diversi metodi.
+
+Metodo 1 : 
+misura della massa complessiva di 5 dischetti( vedi istogramma).
+
+misura della massa complessiva di 10 dischetti (vedi istogramma).
+misura dell'allungamento per i 5 dischetti e per i 10 dischetti per 10 volte ciascuno.
+misura del periodo di oscillazione per 5 dischetti e per 10 dischetti:
+- misura del tempo complessivo di 10 oscillazioni ripetuta per 40 volte (vedi istogramma)
+
+- misura del tempo complessivo di 40 oscillazioni ripetuta per 10 volte (vedi istogramma).
+
+Analisi dei dati raccolti: tabella con valori medi e incertezze per misure ripetute(metti tabella):
+
+Da questi dati è possibile ricavare la misura di k e g con la relativa incertezza nei due casi analizzati:
+1 CASO 10 RIPETIZIONI 40 OSCILLAZIONI:      k= (52.92556 +- 0.03435) N/m  ; g= (9.74958 +- 0.07617) m/s^2
+2 CASO 40 RIPETIZIONI 10 OSCILLAZIONI:      k= (53.00305 +- 0.05683) N/m  ; g= (9.76385 +- 0.07250) m/s^2
+
+Non è stata presa in considerazione l'incertezza sulle masse per la misura di k poiché è << di quella dei periodi e pertanto può essere trascurata.
+
+metodo 2(metodo grafico)
+
+- misura della massa dei 10 dischetti in modo integrato con 10 ripetizioni ciascuna.
+- misura dell'allungamento e del periodo di oscillazione ad ogni integrazione dei dischetti (20 misure per 10 oscillazioni per il periodo).
+Il grafico(specifica) mostra l'andamento di T^2 in funzione della massa:
+il coefficiente angolare della retta alfa1= ...
+
+Il grafico(specifica) mostra l'andamento di xeq in funzione della massa:
+il coefficiente angolare della retta alfa2= ...
+Il grafico(specifica) mostra l'andamento di xeq in funzione di T^2:
+il coefficiente angolare della retta alfa3=...
+
+Misura di k e g
+
+Dal coefficiente angolare alfa1 della retta di interpolazione (grafico 1) è possibile ricavare il valore di k con la relativa incertezza:
+k= 4pigreco^2/alfa1 +/- sigma(k)=(53.27945 +- 1.79248) N/m
+
+Dai coefficienti angolari alfa 1, alfa2 e alfa3 delle relative rette di interpolazione è possibile calcolare g con incertezza in due modi differenti:
+1 g= 4pigreco^2* (alfa2/alfa1) +/- sigma(g)= (9.87893 +- 1.32849) m/s^2
+2 g= 4pigreco^2* alfa3 +/- sigma(g)=         (9.88455 +- 0.33261) m/s^2
+
+La tabella( dire quale) mostra i valori di tutte le misure di k e g con le incertezze ricavate con i due metodi:
+ 
+
+Conclusione 
+
+La misura di k e g con il primo metodo mostra come le incertezze relativa calcolate per il primo caso( 40 oscillazioni per 10 ripezioni), che risultano
+rispettivamente dello 0,65% e dello 0,78%, siano lievemente maggiore a quelle calcolate per il secondo caso(10 oscillazioni per 40 ripetizioni), 
+che si riducono rispettivamente allo 0,11% e allo 0,74%.
+Questo risultato è dimostrato dal fatto che l'incertezza di tipo B, causata da errori legati allo strumento utilizzato e ai materiali di riferimento,
+può essere corretta aumentando il numero di misure della stessa grandezza fisica. 
+I valori delle incertezza relative di g calcolate nei due differenti casi con il secondo metodo,invece, si discostano notevolemente l'uno dall'altro. 
+Ricavando g dal rapporto alfa2/alfa1 rispetto ad alfa3, infatti, si deve propagare l'incertezza di due variabili calcolate, a loro volta, indirettamente.
+Confrontando,infine, i valori delle incertezze relative di k e g dal primo metodo con quelli del secondo metodo si nota come, sebbene
+ la costruzione di una retta dei dati interpolante permetta di studiare la dipendenza lineare delle variabili interessate e capirne la correlazione fisica,
+le approssimazioni grafiche determinano una crescita significativa dell'incertezza sulle misure.
+
+
