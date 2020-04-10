@@ -2,8 +2,8 @@
 Misurare il valore della costanza elastica di una molla reale e dell'accelerazione di gravità attraverso
 due metodi differenti. 
 2 Materiali e apparato sperimentale
-
-
+E' stato simulato  con l'applicazione mylab... l'allungamento di una molla reale avente una massa appesa.
+I dati riportati nelle tabelle si riferiscono alle misure del programma.
 
 3 Strategia e formule utilizzate
 Per ricavare k della molla e g attraverso l'oscillazione di una molla per una massa appesa si utilizza la legge di Hooke in una dimensione:
