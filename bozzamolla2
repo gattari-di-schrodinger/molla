@@ -41,16 +41,10 @@ sigma(g)= sqrt((d(g)/d(k)*sigma(k))^2+(d(g)/d(xeq2)*sigma(xeq2))^2+(d(g)/d(xeq1)
 
 Da queste formule si può poi calcolare l'incertezza relativa di k e g esprimibili come sigma/ valore medio.
 
-Attraverso il metodo grafico è possibile linearizzare una funzione f(x) tramite una retta approssimante della forma y=a+bx 
-dove b= S/S*  e a= My- b Mx
+Attraverso il metodo grafico(metodo 2) è possibile linearizzare una funzione f(x) tramite una retta approssimante della forma y=a+bx 
+E[b]= Cov(x,y)/Var[x]   ;  sigma(b)= 1/sommatoria da 1 a n di 1/sigma^2(y) *Var[x]
+E[a]= valor medio di y- valor medio di x * E[b] ; sigma[a]=( 1/sommatoria da 1 a n di 1/sigma^2(y) )* valor medio di x^2 /Var[x].
 
-essendo
-.Mx la media dei valori di xi;
-.My la media dei valori di yi;
-. S= la somma dei prodotti degli scarti di xi da Mx e di yi da Myi, ovvero:
-
-S= sommatoria da 1 a n di (xi-Mxi)(T^2i-Myi);
-S* la somma in quadratura degli scarti di xi dalla media Mx, ovvero S*= sommatoria da 1 a n di (xi-Mx)^2.
 
 Per valutare se la retta di approssimazione è efficace, si calcola il coefficiente di determinazione indicato con r^2 dato da:
 Cov^2(xy)/Var(x)*Var(y).
@@ -70,16 +64,17 @@ sigma(k)= 4pigreco^2* sigma(alfa1).
 
 Dai valori di alfa1, alfa2 e alfa3, inoltre, è  possibile ricavare g esprimibile come:
 1 g= 4pigreco^2* alfa2/alfa1 
-2 g= 4pigreco^2* alfa3
+2 g= 4pigreco^2/alfa3
 
 L'incertezza su g dalla prima formula è sigma(g)= 4pigreco^2*alfa2/alfa1 *sqrt(sigma(alfa2)^2+ sigma(alfa1)^2).
-L'incertezza su g dalla seconda formula è sigma(g)= 4pigreco^2*sigma(alfa3).
+L'incertezza su g dalla seconda formula è sigma(g)= 4pigreco^2/alfa3^2*sigma(alfa3)
 
 Accorgimenti:
 - errore di offset: 
 analizzando i dati relativi alle masse si notano delle disuguaglianze tra il valore delle masse reali e il valore delle masse misurate per cui 
 è necessaria una correzione. Confrontando la retta dei valori medi con quella ideale, ovvero avente offset pari a zero e pendenza di 45°, si determina 
 l'errore di offset, in corrispondenza dell'intercetta della retta(vedi grafico).
+Dal grafico si può concludere che l'errore di offset può essere trascurato.
 - poiché si tratta di una molla reale, l'allungamento viene stimolato a partire da un preciso valore della massa per cui risulta che i valori di T0 e T1
 del periodo di oscillazione presenti nella tabella (dire quale) siano pari a 0. Nei calcoli, quindi, sono stati trascurati.
 
@@ -125,7 +120,7 @@ k= 4pigreco^2/alfa1 +/- sigma(k)=(53.27945 +- 1.79248) N/m
 
 Dai coefficienti angolari alfa 1, alfa2 e alfa3 delle relative rette di interpolazione è possibile calcolare g con incertezza in due modi differenti:
 1 g= 4pigreco^2* (alfa2/alfa1) +/- sigma(g)= (9.87893 +- 1.32849) m/s^2
-2 g= 4pigreco^2* alfa3 +/- sigma(g)=         (9.88455 +- 0.33261) m/s^2
+2 g= 4pigreco^2/ alfa3 +/- sigma(g)=         (9.88455 +- 0.33261) m/s^2
 
 La tabella( dire quale) mostra i valori di tutte le misure di k e g con le incertezze ricavate con i due metodi:
  
