@@ -15,7 +15,8 @@ una media campionaria di valori.
 4 L'incertezza di misurare piu periodi è differente da quella di misurare piu volte lo stesso periodo poiché nel primo caso 
 si effettua una valutazione nelle stesse condizioni di misura mentre nel secondo caso si colleziona un maggior numero di misure sulla stessa
 grandezze. In quest'ultimo modo si riduce lo scarto massimo. 
-5 
+5 Sigma(T^2) è l'incertezza della variabile casuale T^2. La propagazione sigma(T) è un'approssimazione di sigma(T^2) a partire da T usando
+la formula di espansione di Taylor.
 6 Ripetendo una misura nelle stesse condizioni per un numero n di volte che tende ad infinito e si traccia l'istogramma, questo
 tenderà ad un gaussiana(teorema del limite centrale). I bin, pertanto, devo essere scelti in modo che i valori siano
 contenuti nel grafico. 
