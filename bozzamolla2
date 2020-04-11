@@ -127,9 +127,9 @@ La tabella( dire quale) mostra i valori di tutte le misure di k e g con le incer
 
 Conclusione 
 
-La misura di k e g con il primo metodo mostra come le incertezze relativa calcolate per il primo caso( 40 oscillazioni per 10 ripezioni), che risultano
-rispettivamente dello 0,65% e dello 0,78%, siano lievemente maggiore a quelle calcolate per il secondo caso(10 oscillazioni per 40 ripetizioni), 
-che si riducono rispettivamente allo 0,11% e allo 0,74%.
+La misura di k con il primo metodo mostra come l' incertezza relativa calcolata per il primo caso( 40 oscillazioni per 10 ripezioni), che risulta
+dello 0,65% , sia lievemente maggiore a quella calcolata per il secondo caso(10 oscillazioni per 40 ripetizioni), 
+che si riduce  allo 0,11%.
 Questo risultato è dimostrato dal fatto che l'incertezza di tipo B, causata da errori legati allo strumento utilizzato e ai materiali di riferimento,
 può essere corretta aumentando il numero di misure della stessa grandezza fisica. 
 I valori delle incertezza relative di g calcolate nei due differenti casi con il secondo metodo,invece, si discostano notevolemente l'uno dall'altro. 
