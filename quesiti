@@ -1,0 +1,31 @@
+
+1 Per riproducibilità di una misura si intende il grado di concordanza
+tra le misure effettuate sullo stesso misurando con diversi metodi e condizioni di misura
+(diversi strumenti, operatori,luoghi e tempi). 
+2 La valutazione dell’incertezza di tipo A, calcolata con metodi statistici, si applica quando
+sono state eseguite un numero adeguato di misurazioni indipendenti di una grandezza X
+sotto le stesse condizioni e i cui valori sono diversi tra loro. Nell'esperienza della molla il calcolo della 
+deviazione standard della media di k e g ne è un esempio.
+3 L'incertezza di tipo B si applica quando nell'esecuzione di una misura i valori registrati si ripetono uguali a se stessi.
+In questo caso non è possibile utilizzare metodi statistici e la valutazione di questo tipo di incertezze richiede un'adeguata 
+analisi della situazione sperimentale utilizzata. Bisogna,quindi, tener conto di diversi fattori come la taratura della strumentazione o
+le caratteristiche dei materiali e degli strumenti impiegati. Nell'esperienza della molla, per esempio, l'utilizzo di una strumentazione
+digitale per misurare i periodi di oscillazione e l'elongazione ha reso necessaria la misura di n multipli della stessa grandezza per ottenere
+una media campionaria di valori.
+4 L'incertezza di misurare piu periodi è differente da quella di misurare piu volte lo stesso periodo poiché nel primo caso 
+si effettua una valutazione nelle stesse condizioni di misura mentre nel secondo caso si colleziona un maggior numero di misure sulla stessa
+grandezze. In quest'ultimo modo si riduce lo scarto massimo. 
+5 
+6 Ripetendo una misura nelle stesse condizioni per un numero n di volte che tende ad infinito e si traccia l'istogramma, questo
+tenderà ad un gaussiana(teorema del limite centrale). I bin, pertanto, devo essere scelti in modo che i valori siano
+contenuti nel grafico. 
+7 Il coefficiente angolare b della retta interpolazione del tipo y= a + bx può essere ricavato come Cov(x,y)/Var(x).
+8 Il contributo dominante di un'incertezza di misura si valuta confrontando quest'ultima con l'incertezza delle altre grandezze di riferimento.
+Data una funzione G(x,y), se sigma(x)<<sigma(y), l'incertezza di x può essere trascurata.
+9 Il modo corretto di scrivere il risultato di una misura consiste nel riportare il valore atteso con l'incertezza di misura correlata, che 
+tiene conto sia delle incertezze di tipo A e che di tipo B, impiegando le opportune cifre significative e unità di misura tali da non perdere informazioni. 
+Nell'esperienza della molla, per esempio, il valore  di g ricavato dai calcoli è di 9.74958 m/s^2 con l'incertezza di 0.07617 m/s^2.
+Poiché l'incertezza relativa di g con due cifre significative è dello 0,78% e con tre è lo stesso, il risultato corretto è:
+g= (9.75 +- 0.076) m/s^2
+10 Estrarre g dal rapporto alfa2/alfa1 rispetto ad alfa3 comporta un aumento dell'incertezza poiché bisogna tener conto dell'incertezza combinata
+di due variabili anziché una. Dai calcoli risulta che l'incertezza aumenti di circa il 10%.
